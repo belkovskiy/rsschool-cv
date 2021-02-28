@@ -8,3 +8,40 @@ yauheni.bialkouski@gmail.com**
 
 #### I have basic experience with HTML / CSS, JavaScript, PHP, Mysql, Git.
 
+## Code example
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="menu">
+		<button data-action='load'>Загрузить</button>
+		<button data-action='save'>Сохранить</button>
+		<button data-action='search'>Поиск</button>
+	</div>
+	<script type="text/javascript">		
+		function Menu(elem){
+			  this.load = function(){
+				alert("Загружаю.....!");
+			};
+			this.save =function(){
+				alert("Сохраняю...!");
+			};
+			this.search = function(){
+				alert("Ищу...!");
+			};
+			let self = this;
+			elem.onclick = function(e){
+				let target = e.target;
+				let action = target.getAttribute('data-action');
+				if(action){
+					self[action]();
+				}
+			};
+		};
+		new Menu(menu);
+	</script>
+</body>
+</html>`
