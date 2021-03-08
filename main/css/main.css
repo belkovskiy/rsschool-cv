@@ -1,0 +1,38 @@
+body {
+    background: #000;
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-left: 10px;
+}
+
+.container { 
+    position: relative;
+    min-height: 100%;
+    width: 800px;    
+    margin: 0 auto;
+}
+
+.content {
+    height: 100%;
+    
+}
+
+.content .left-content {
+    width: 30%;
+    height: 550px;    
+    float: left;
+    background: #fff;
+}
+
+.content .right-content {
+    width: 70%;
+    height: 550px;
+    float: right;
+    background:#F0E68C;
+}
+
+.selected {
+    background: yellow;
+}
