@@ -2,7 +2,7 @@
 **+375(29)287-12-15
 ebelkovskiy9@gmail.com**
 
-#### I want to start my career as a JavaScript developer at EPAM and become a team lead in 5 years!
+#### I want to start my career as a JavaScript developer and become a team lead in a period of about 5 years!
 #### I have good analytical skills. I can easily do self-study.
 #### I have good teamwork skills.
 
